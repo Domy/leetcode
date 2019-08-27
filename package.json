@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest ./test/*"
+    "test": "jest ./test"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "wkaifang@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
+    "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
+    "eslint": "^6.2.2",
+    "eslint-plugin-jest": "^22.15.2",
     "jest": "^24.9.0"
   }
 }
